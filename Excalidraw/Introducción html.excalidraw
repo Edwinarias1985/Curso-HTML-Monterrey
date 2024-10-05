@@ -1,0 +1,51 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "https://excalidraw.com",
+  "elements": [
+    {
+      "id": "4AkB3l26oYBoA1GVAv0o3",
+      "type": "text",
+      "x": 17,
+      "y": -204,
+      "width": 650.99853515625,
+      "height": 625,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "aH",
+      "roundness": null,
+      "seed": 848646709,
+      "version": 830,
+      "versionNonce": 1642275067,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1728102734829,
+      "link": null,
+      "locked": false,
+      "text": "<!DOCTYPE html>\n<html lang=\"es\">\n    <head>\n        <title>Introducción a lenguaje HTML</title>\n    </head>\n    <body>\n        <h1>Formato y estructura de HTML</h1>\n        <p>HTML es el esqueleto de todas las páginas WEB es decir\nque, aquí se puede definir el formato, perimite incluir imágenes, \nformularios, botones e incluso enlaces. Nos permite usar todas las \nherramientas para hacer uso de nuestra imaginación.</p>\n        <p>Lo que se hace en HTML es lo que nuestros navegadores\nlo interpretan y nos dejan ver como finalmente queda</p>\n        <h2>Competencias que se adquiere en este módulo</h2>\n        <ul>\n            <li>Reglas generales de HTML.</li>\n            <li>Conocimientos sobre elementos de HTML como \nencabezados, listas, párrafos, formularios.</li>\n            <li>Estructuramiento básico de páginas WEB.</li>\n        </ul>\n    </body>\n</html>\n\nDe esta manera aquí se evidencia la estructura que se debe tener \nen cuenta para iniciar desde 0",
+      "fontSize": 20,
+      "fontFamily": 5,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "originalText": "<!DOCTYPE html>\n<html lang=\"es\">\n    <head>\n        <title>Introducción a lenguaje HTML</title>\n    </head>\n    <body>\n        <h1>Formato y estructura de HTML</h1>\n        <p>HTML es el esqueleto de todas las páginas WEB es decir que, aquí se puede definir el formato, perimite incluir imágenes, formularios, botones e incluso enlaces. Nos permite usar todas las herramientas para hacer uso de nuestra imaginación.</p>\n        <p>Lo que se hace en HTML es lo que nuestros navegadores lo interpretan y nos dejan ver como finalmente queda</p>\n        <h2>Competencias que se adquiere en este módulo</h2>\n        <ul>\n            <li>Reglas generales de HTML.</li>\n            <li>Conocimientos sobre elementos de HTML como encabezados, listas, párrafos, formularios.</li>\n            <li>Estructuramiento básico de páginas WEB.</li>\n        </ul>\n    </body>\n</html>\n\nDe esta manera aquí se evidencia la estructura que se debe tener en cuenta para iniciar desde 0",
+      "autoResize": false,
+      "lineHeight": 1.25
+    }
+  ],
+  "appState": {
+    "gridSize": 20,
+    "gridStep": 5,
+    "gridModeEnabled": false,
+    "viewBackgroundColor": "#ffffff"
+  },
+  "files": {}
+}
