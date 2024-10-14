@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Listas</title>
+    </head>
+    <body style="background-color: blueviolet;">
+        <h1>Listas en HTML (Hypertex markup language)</h1>
+        <p>Las listas se pueden utilizar para enumerar elementos o en listarlos con viñetas. Hay tes tipos de listas qu son <strong>ordenadas y desordenadas</strong>, y cada una cuenta con su propia estrutura que se verá a continuación. </p>
+        <h2>Listas ordenadas</h2>
+        <p style="margin-bottom: 0;">Como su nombre lo indica, muestra sus elementos en orden siguiendo la semántica con su etiqueta ol y por cada elemento se añade la etiqueta li. El atributo TYPE especifíca el tipo de numeracón que le queremos dar a la lista ordenada</p>
+        <h3 style="margin-top: 0;">Ejemplo:</h3>
+        <ol>
+            <li style="color: aqua;">Primer elemento</li>
+            <li style="color: black;">segundo elemento</li>
+            <li style="color: yellowgreen;">Tercer elemento</li>
+            <li style="color: yellow;">Cuarto elemento</li>
+            <li style="color: red;">
+                <ol type="A">
+                    <li>Otro primer elemento</li>
+                    <li>Otro segundo elemento</li>
+                </ol>
+            </li>
+        </ol>
+        <p style="font-weight: bold;">Se puede notar al utilizar dos listar una dentro de otra, se cambió el atributo TYPE para que nos muestre lista con incisos alfabéticos. ya que este atrubito por defecto en numérico</p>
+        <h2>Listas desordenadas.</h2>
+        <p style="margin-bottom: 0;">Los elementos de esta lista no se <strong>ORDENAN</strong>, su etiqueta es <strong>ul</strong> y al igual que las listas ordenadas, cada elemento debe estar dentro de la etiqueta <strong>li</strong>. Este tipo de de lista no tiene atributo <strong>type</strong>, para modificar su estilo podemos utilizar el atributo <strong>style</strong> pero, es mejor utilizar un archivo CSS aparte para mantener el orden de los archivos.</p>
+        <h3 style="margin-top: 0;">Ejemplo:</h3>
+        <ul>
+            <li style="color: aqua;">Café</li>
+            <li style="color: blue;">Leche</li>
+            <li style="color: purple;">Pan</li>
+            <li style="color: yellow;">Huevos</li>
+            <li style="color: green;">Verdura
+                <ul>
+                    <li>Lechuga</li>
+                    <li>Tomate</li>
+                    <li>Cebolla</li>
+                </ul>
+            </li>
+        </ul>
+        <p>Como se puede ver en el ejemplo, no se ve que haya numeración en las lista y también se utilizó una lista dentro de otra.</p>    
+    </body>
+</html>
