@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Formularios</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+<body style="background-color: blueviolet;">
+    <h1>Formularios HTML (HyperText Markup Language)</h1>
+    <p>Los formularios permiten obtener información, para definir un formulario se debe utilizar la etiqueta form, que a su vez contiene los elementos más utilizados como lo son input, lable y select.</p>
+    <form action="/manejarFormulario" method="POST">
+        <label for="usuario">Usuario</label>
+        <input type="text" id="usuario" name="usuario" placeholder="Tu usuario"><br>
+        <label for="pwd">Contraseña:</label>
+        <input type="password" name="pwd" id="pwd"><br>
+        <label>Sexo:</label>
+        <label for="hombre">Hombre</label>
+        <input type="radio" name="sexo" id="hombre" value="hombre">
+        <label for="mujer">Mujer</label>
+        <input type="radio" name="sexo" id="mujer" value="mujer"><br>
+        <label for="pais">País</label>
+        <select name="pais" id="pais">
+            <option>Estados Unidos</option>
+            <option>Canadá</option>
+            <option selected>Mexico</option>
+            <option>Otro</option>
+        </select><hr>
+        <label for="terminos">Aceptas los terminos</label>
+        <input type="checkbox" name="terminos" id="terminos" value="aceptar"><hr>
+        <input type="submit" value="Enviar!"> 
+    </form>
+</body>    
+</html>
