@@ -5,14 +5,14 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Enlaces</title>
     </head>
-    <body style="margin: 0; background-color: purple;">
+    <body style="margin: 0; background-color: grey;">
         <h1 style="margin: 0;">Temas finales</h1>
         <h2>Tema 11: enlaces</h2>
         <p style="background-color: aqua; margin: 0;">Son llamados como enlaces o hipervinculos, éstos son muy comunes en todas las páginas WEB donde nos permiten navegar tanto navegadores externos, como en archivos de nuestro PC. Para esto se debe utilizar la etiqueta <strong>(a)</strong>. No necesariamente sirve para texto de una página sino, tambien para videos, imágenes y URL's. También se puede utilizar en cualquier elemento <strong>HTML</strong>.</p>
         <h3 style="margin: 0;">Enlaces a Páginas Externas</h3>
         <a href="https://zajuna.sena.edu.co/" style="color: blue; text-decoration: overline;">Este enlace te lleva a Zajuna</a>
         <h3>Enlaces dentro de un párrafo.</h3>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat nihil hic tempora ea eius assumenda esse delectus laudantium consectetur. Repellendus omnis dolorem ipsa quae repudiandae cum nulla minima harum sapiente. Esto es el resultado de cada individuo alterno y cuyo valor es el todo, mira la moto. <a href="https://motos.tucarro.com.co/motos-usadas-bogota_ITEM*CONDITION_2230581">Aquí</a></p>
+        <p id="primer_ejemplo_de_id">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat nihil hic tempora ea eius assumenda esse delectus laudantium consectetur. Repellendus omnis dolorem ipsa quae repudiandae cum nulla minima harum sapiente. Esto es el resultado de cada individuo alterno y cuyo valor es el todo, mira la moto. <a href="https://motos.tucarro.com.co/motos-usadas-bogota_ITEM*CONDITION_2230581">Aquí</a></p>
         <h3>Párrafo completo con enlace</h3>
         <a href="https://www.youtube.com/watch?v=f4X9ciZfZQw"><p>Este ejercicio indica que el enlace es un <strong>p</strong> para describir directamente lo que tengamos aquí, ejemplo es Youtube</p></a>
         <h3>Enlace en una pestaña nueva</h3>
@@ -21,8 +21,23 @@
         <h3>Enlace con imagen</h3>
         <p>Para este nuevo ejercicio, se va a utilizar una imagen con su enlace, también utilizamos el atributo <strong>target</strong>.</p>
         <a href="https://es.wikipedia.org/wiki/Choach%C3%AD" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Choachi%2C_Cundinamarca_-_panoramio.jpg/250px-Choachi%2C_Cundinamarca_-_panoramio.jpg" alt="Paisaje de Choachí" title="paisaje"></a>
+        <hr style="border: none; height: 5px ; background-color: black;">
+        <div class="tema-12" style="background-color: aqua;">
+            <h2>Tema 12: Enlaces Internos</h2>
+            <h3>Enlaces a otras páginas del mismo sitio</h3>
+            <p>Este tipo de enlaces se usa todo el timepo para navegar en el sitio WEB, en la barra de navegación. En el atributo <strong>href</strong> se debe colocar ya no la URL sino la ruta al archivo al que queramos llamar, navegar.</p>
+            <a href="formularios.html" target="_blank" title="formularios">Éste enlace lo lleva al archivo de formularios</a>
+            <h2 style="border: 2px solid;">Enlaces a otras partes de la misma página</h2>
+            <p style="border: 3px solid;">Estos enlaces se utilizan para facilitar la navegación al usuario, al presionarlo lo lleva directamente al inicio o final de una sección y no utilizar el desplazamiento del Mouse. Para esto en el atributo <strong>href</strong> se le debe poner # y en el <strong>id</strong> pues ya creado anteriormente en alguna etiqueta, se le llama con el nombre que se le haya puesto, y así poder utilizarlo con el # en el atribito <strong>href</strong>, recordar que en el atributo global <strong>id</strong> se puede utilizar en cualquier elemento <strong>HTML</strong>.</p>
+            <a href="#primer_ejemplo_de_id" style="padding: 30px;"> Primer ejemplo con id</a>
+        </div>
+        <hr>
+        <div style="background-color: black; color: aliceblue;" id="otros_elementos">
+            <h2>Otros elementos</h2>
+            <p>Como ensayo</p>
+        </div>
     </body>
-    <hr style="border: none; height: 5px ; background-color: black;">
-    <h2>Tema 12: Enlaces Internos</h2>
-    <p>asjalsdjkl</p>
 </html>
+
+
+
