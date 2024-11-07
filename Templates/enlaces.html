@@ -34,8 +34,65 @@
         <hr>
         <div style="background-color: black; color: aliceblue;" id="otros_elementos">
             <h2>Otros elementos</h2>
-            <p>Como ensayo</p>
+            <p>Con este módulo se llega al final de HTML y así, se conocieron todos los elementos necesarios para esturcturar una página WEB. Para esta sección se conocerán otros elementos de HTML que podrán ser mu útiles como lo son: <strong>iframes, tablas y spans.</strong></p>
+            <h3 style="color: blue;">Iframes</h3>
+            <p style="border: 6px solid;">Los <strong>iframes</strong> son visualizados como un marco que puede contener otra página WEB, tanto interna como externa en nuestro sitio. Como ejemplo es videos de Youtube, para poder implementar estos elementos se utiliza la etiqueta <strong>iframe</strong> y para utilizarlo se necesita definir el atributo <strong>src</strong> indicando al navegador el URL de la página que debe mostrar dentro del marco. Se agregan atributos como lo son <strong> width y height</strong> sonde se modifica el tamaño de nuesto contenido.así:
+            </p>
+            <h4 style="margin: 0;">Página de nuestro Laptop</h4>
+            <iframe src="imagenes.html" frameborder="0" style="height: 250px; width: 500px;"></iframe>
+            <hr>
+            <h4 style="margin: 0;">Página externa</h4>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/KgDrbPF30ds?si=WVwsbGYzxqu6Nmbb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen"></iframe>
+            <hr>
+            <h3>Tablas</h3>
+            <p style="background-color: brown; border: 3px solid;"> Se definen con la etiqueta <strong>table</strong> donde las tablas nos permiten organizar contenido en columnas y filas. Para esto se utiliza las etiquetas:</p>
+            <ul>
+                <li><strong>tr</strong>: para definir filas</li>
+                <li><strong>th</strong>: para definir encabezados de tablas</li>
+                <li><strong>td</strong>: para definir celdas normales</li>
+            </ul>
+            <h3 style="border: 6px solid; color: chartreuse;">Ejemplo</h3>
+            <style>
+                table{
+                    border: solid;
+                    text-align: center;
+                    border-collapse: collapse;
+                }
+                tr, th, td{
+                    border: solid yellow;
+                }
+                .encabezados{
+                    background-color: grey;
+                }
+                .nombres{
+                    background-color: blueviolet;
+                }
+                .edades{
+                    background-color: red;
+                }
+                .apellidos{
+                    background-color: burlywood;
+                }
+            </style>
+            <table style="width: 100%;"><!--La etiqueta Style se deja del tamaño de 100%, tal cual como la etiqueta padre que es el Body-->
+                <tr class="encabezados">
+                    <th>Nombre</th>
+                    <th>Apellido</th>
+                    <th>Edad</th>
+                </tr>
+                <tr>
+                    <td class="nombres">Luis</td>
+                    <td class="apellidos">Duran</td>
+                    <td class="edades">26</td>
+                </tr>
+                <tr>
+                    <td class="nombres">Claudia</td>
+                    <td class="apellidos">Bojas</td>
+                    <td class="edades">24</td>
+                </tr>
+            </table>
         </div>
+        <hr>
     </body>
 </html>
 
